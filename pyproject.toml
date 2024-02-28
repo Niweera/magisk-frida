@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "magisk-frida"
-version = "1.0.0"
+version = "1.0.1"
 description = "Run frida-server on boot with Magisk"
-authors = [""]
+authors = ["Nipuna Weerasekara <w.nipuna@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
