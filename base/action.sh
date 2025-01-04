@@ -16,13 +16,13 @@ set -x
     exit 0
 }
 
-result="$(busybox pgrep 'frida-server')"
+result="$(busybox pgrep 'preeda')"
 if [ $result -gt 0 ]; then
     echo "[-] Stopping Frida-server..."
     busybox kill -9 $result
 else
     echo "[-] Starting Frida server..."
-    frida-server -D
+    preeda -D
 fi
 
 sleep 1

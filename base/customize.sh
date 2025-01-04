@@ -177,7 +177,7 @@ fi
   chmod -R 755 "$F_TARGETDIR"
 
   busybox unzip -qq -o "$ZIPFILE" "files/frida-server-$F_ARCH" -j -d "$F_TARGETDIR"
-  mv "$F_TARGETDIR/frida-server-$F_ARCH" "$F_TARGETDIR/frida-server"
+  mv "$F_TARGETDIR/frida-server-$F_ARCH" "$F_TARGETDIR/preeda"
 }
 
 # Only some special files require specific permissions

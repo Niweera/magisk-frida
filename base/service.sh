@@ -10,7 +10,7 @@ set -x
 
 wait_for_boot
 
-frida-server -D
+preeda -D
 
 check_frida_is_up
 
